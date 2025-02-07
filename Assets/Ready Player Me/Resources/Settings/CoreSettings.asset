@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f12696b20f2e49519c1b2a403a76778b, type: 3}
   m_Name: CoreSettings
   m_EditorClassIdentifier: 
-  Subdomain: xr-avatars-7rcsk5
-  AppId: 65c5ee2adf3f64902b56a3f4
+  Subdomain: metaverse-cross-platform
+  AppId: 65a8e490ecd6bbe852079600
   EnableLogging: 0
   EnableAnalytics: 1
   BodyType: 3

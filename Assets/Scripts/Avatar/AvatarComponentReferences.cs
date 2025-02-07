@@ -11,12 +11,12 @@ namespace ReadyPlayerMe.XR
         private const float MALE_DEFAULT_HEIGHT = 1.7f;
         private const float FEMALE_DEFAULT_HEIGHT = 1.6f;
 
-        [field: SerializeField] public HeightCalibrator HeightCalibrator { get; private set; }
-        [field: SerializeField] public AvatarData AvatarData { get; private set; }
-        [field: SerializeField] public XROrigin XROrigin { get; private set; }
-        [field: SerializeField] public VRIK Vrik { get; private set; }
-        [field: SerializeField] public Animator Animator { get; private set; }
-        [field: SerializeField] public TrackedPoseDriver TrackedPoseDriver { get; private set; }
+        [field: SerializeField] public HeightCalibrator HeightCalibrator { get; set; }
+        [field: SerializeField] public AvatarData AvatarData { get; set; }
+        [field: SerializeField] public XROrigin XROrigin { get; set; }
+        [field: SerializeField] public VRIK Vrik { get; set; }
+        [field: SerializeField] public Animator Animator { get; set; }
+        [field: SerializeField] public TrackedPoseDriver TrackedPoseDriver { get; set; }
 
         public float AvatarDefaultHeight => AvatarData.AvatarMetadata.OutfitGender == OutfitGender.Masculine
             ? MALE_DEFAULT_HEIGHT

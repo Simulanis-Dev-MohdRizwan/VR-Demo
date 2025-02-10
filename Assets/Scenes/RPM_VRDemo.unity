@@ -123,6 +123,42 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &210234161 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8349117614387639543, guid: 302406d8c6c784d3cbe17ece6186f3ca, type: 3}
+  m_PrefabInstance: {fileID: 6072903187543738191}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &210234163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210234161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd256089d0ee0d444abd7f49c068969c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  downloadedAvatart: {fileID: 0}
+  ThirdPersonLoader: {fileID: 210234164}
+--- !u!114 &210234164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210234161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcd3a2a3a4803724185a95fcbb555d55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  avatarUrl: https://models.readyplayer.me/65a924d0858eacb175e55a26.glb
+  animatorController: {fileID: 9100000, guid: bea63b6083163f247878bb28fe8da8be, type: 2}
+  loadOnStart: 1
+  previewAvatar: {fileID: 1644354949}
+  AvatarDownloaded: {fileID: 0}
 --- !u!1 &409745533
 GameObject:
   m_ObjectHideFlags: 0
@@ -1609,7 +1645,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8349117614387639543, guid: 302406d8c6c784d3cbe17ece6186f3ca, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 210234164}
+    - targetCorrespondingSourceObject: {fileID: 8349117614387639543, guid: 302406d8c6c784d3cbe17ece6186f3ca, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 210234163}
   m_SourcePrefab: {fileID: 100100000, guid: 302406d8c6c784d3cbe17ece6186f3ca, type: 3}
 --- !u!1 &6072903187543738192 stripped
 GameObject:

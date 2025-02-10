@@ -24,6 +24,7 @@ public class ComponentAdder : MonoBehaviour
         //ComponentAdd -= AddComponents;
     }
 
+    [ContextMenu("assignComponets")]
     public void AddComponents()
     {
         downloadedAvatart = ThirdPersonLoader.AvatarDownloaded;
